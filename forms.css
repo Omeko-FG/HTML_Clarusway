@@ -1,0 +1,25 @@
+* {
+  margin: 0ch;
+  padding: 0ch;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+}
+
+label{
+    display: inline-block;
+    width: 110px;
+    text-align: left;
+}
+
+form{
+    display: inline-block;
+    text-align: center;
+    background-color: aquamarine;
+    padding :20px;
+    width: fit-content;
+}
+
