@@ -1,0 +1,54 @@
+.container{
+    background-color: aqua;
+    margin: 10px;
+    padding: 55px;
+    
+    /*! bir blok element içerinde inline elemetler var ise bunlar text align ile hizalanabilir. blok element içerisinde ki blok elementler hizalanamaz */
+}
+
+.div{
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px auto
+    
+    /* div gibi blok elementler margin.auto ile ortalınalabilir */
+}
+
+hr{
+    margin: 30px 30px;
+}
+
+.nav li{
+display: inline-block;
+/*   ! inline elementler top ve bottom almazlar AMA display ile inline blok kullanırsan olur. */
+cursor: pointer;
+text-align: center;
+background-color: rgb(255, 134, 21);
+border-radius: 10px;
+width: 100p;
+padding: 10px;
+margin: 40px 20px
+}
+
+.nav{
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+h2:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.nav li:hover{
+    cursor: pointer;
+    background-color: rgb(173, 139, 139);
+    color: white;
+    font-weight: 400;
+}

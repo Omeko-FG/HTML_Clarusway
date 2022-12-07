@@ -1,0 +1,28 @@
+* {
+  background-color: azure;
+}
+h1 {
+  color: red;
+}
+
+h1:hover {
+  opacity: 0.5;
+  /* saydamlık */
+  cursor: pointer;
+  /* parmak işareti */
+}
+
+li {
+  list-style-type: none;
+  color: blueviolet;
+}
+
+li:hover {
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.list {
+  border: 4px solid red;
+}

@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../CSS-Clarusway"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "CSS-Clarusway"
+  }
+}

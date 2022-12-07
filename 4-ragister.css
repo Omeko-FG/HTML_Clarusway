@@ -1,0 +1,79 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2022/12/01/17/52/sea-7629517_960_720.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*! body nin default olarak yüksekliği yoktur.*/
+
+  height: 100vh; /* tarayıcının görünen alanının 100% yüksekliği*/
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: aliceblue;
+}
+
+form {
+  border-radius: 10px;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 30px;
+  background: rgb(141, 138, 189);
+  background: linear-gradient(
+    90deg,
+    rgba(141, 138, 189, 1) 0%,
+    rgba(104, 104, 182, 1) 35%,
+    rgba(91, 166, 224, 1) 73%,
+    rgba(84, 187, 208, 1) 100%
+  );
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin: 20px 0px;
+}
+
+.lang-div,
+.gender-div {
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+}
+
+.input {
+  margin-bottom: 20px;
+  margin: 10px 20px;
+  border-radius: 5px;
+  width: 200px;
+  padding: 8px;
+}
+.radio {
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn input {
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgb(255, 38, 147);
+  border: none;
+  padding: 10px;
+}
+
+.btn input:hover {
+  background-color: rgb(214, 0, 107);
+  font-weight: 700;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.textarea * {
+  vertical-align: middle;
+}
