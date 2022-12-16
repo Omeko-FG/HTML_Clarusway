@@ -55,3 +55,4 @@ console.log(name + " is " + (2022 - yearOfBirth) + " years old")
 console.log(
   name + " is " + (new Date().getFullYear() - yearOfBirth) + " years old"
 )
+
