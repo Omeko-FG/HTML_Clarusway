@@ -1,0 +1,40 @@
+.picture {
+  width: 30%;
+  float: left;
+}
+
+.p1 {
+  border: 1px solid blue;
+}
+
+.clearfix {
+  /*? float özellğinşn eski akısına getirmek için clear kullanılır*/
+  clear: both;
+}
+
+/* .main{
+    
+    width: 400px;
+    text-align: center;
+    margin :auto
+} */
+.box {
+  float: left;
+  font-size: 2rem;
+}
+.box1 {
+  background-color: aquamarine;
+  width: 40%;
+}
+.box2 {
+  background-color: magenta;
+  width:35%;
+}
+.box3 {
+  background-color: brown;
+  width: 25%;
+}
+
+.center{
+    text-align: center;
+}
